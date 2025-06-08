@@ -1,33 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <title>Acessibilidade à Água</title>
-    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <section class="cabecalho">
-        <h1>Acessibilidade à Água</h1>
-        <h3>Conexão entre Sustentabilidade e Vida no Campo</h3>
+        <h1>AGRINHO 2025</h1>
+        <h3>Festejando Conexão Campo Cidade</h3>
     </section>
 
-    <nav class="navbar navbar-expand-lg bg-success">
-        <div class="container-fluid justify-content-center">
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav text-white">
-                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Página Inicial |</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="energia.html">Energia Rural |</a></li>
-                    <li class="nav-item"><a class="nav-link active text-white" href="#">Água |</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="producao.html">Produção</a></li>
-                </ul>
-            </div>
+    <nav class="navbar bg-success">
+        <div class="container justify-content-center">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-white" href="index.html">Página Inicial |</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="energia.html">Energia Rural |</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="agua.html">Água |</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="producao.html">Produção</a></li>
+            </ul>
         </div>
     </nav>
 
-    <div class="container py-5">
+    <div class="container pt-5">
         <div class="row">
             <div class="col-md-6">
-                <h2>A importância da água no campo</h2>
-                <p>A água é essencial para a vida e para o trabalho rural. Ela garante o sustento das famílias, o cuidado com os animais e o crescimento das plantações.</p>
-                <p>Mesmo sendo indispensável, muitas áreas enfrentam dificuldades no acesso à água potável. A instalação de cisternas, poços e o reaproveitamento da chuva são soluções viáveis que mudam essa realidade.</p>
+                <h2>A importância da água no meio rural</h2>
+                <p class="alinha">A água é essencial para a vida e tem papel central na produção agrícola e na qualidade de vida das famílias rurais. No campo, ela é usada na irrigação, criação de animais e higiene. Porém, muitas comunidades ainda enfrentam dificuldade no acesso à água potável. Soluções como poços artesianos, sistemas de captação da chuva e preservação de nascentes fazem toda a diferença na sustentabilidade rural.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="agua (2).jpeg" class="img-agro br-3" alt="Imagem ilustrativa sobre água">
+            </div>
+        </div>
+
+        <hr class="my-5">
+
+        <h3 class="text-center pb-3">Envie sua opinião sobre o tema</h3>
+        <form>
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome completo:</label>
+                <input type="text" class="form-control" id="nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="opiniao" class="form-label">O que você acha sobre o acesso à água no campo?</label>
+                <textarea class="form-control" id="opiniao" rows="4" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="regiao" class="form-label">Sua região:</label>
+                <select class="form-select" id="regiao">
+                    <option>Zona Rural</option>
+                    <option>Zona Urbana</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+    </div>
+
+    <div class="footer mt-5">
+        <p>Todos os direitos reservados para Agrinho 2025 - Festejando a conexão campo cidade.</p>
+    </div>
+</body>
+
+</html>
