@@ -1,10 +1,61 @@
-<h2>Energia elétrica: progresso no campo</h2>
-<p>
-    A energia elétrica é um dos principais fatores que contribuem para o desenvolvimento da zona rural. Ela possibilita a mecanização de processos, melhora o armazenamento da produção e amplia a qualidade de vida das famílias.
-</p>
-<p>
-    Mesmo com avanços, ainda existem áreas rurais com acesso limitado à energia. A expansão da rede elétrica e o uso de fontes alternativas, como a energia solar, estão levando modernidade e autonomia ao campo.
-</p>
-<p>
-    O acesso à energia é fundamental para que o agricultor possa produzir mais e viver melhor, unindo o saber tradicional à tecnologia.
-</p>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Energia Rural</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="cabecalho">
+        <h1>Energia no Campo</h1>
+        <h3>Modernização e Qualidade de Vida</h3>
+    </section>
+
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid justify-content-center">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav text-white">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Página Inicial |</a></li>
+                    <li class="nav-item"><a class="nav-link active text-white" href="#">Energia Rural |</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="agua.html">Água |</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="producao.html">Produção</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Energia elétrica: progresso no campo</h2>
+                <p>A energia transforma a vida rural, tornando o trabalho mais eficiente e a vida mais confortável.</p>
+                <p>Infelizmente, nem todas as famílias têm acesso garantido. Fontes alternativas, como a energia solar, estão mudando essa realidade, oferecendo autonomia e sustentabilidade.</p>
+                <p>Levar energia ao campo é investir no desenvolvimento de quem alimenta as cidades.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="./assets/image/energia.jpg" class="img-agro br-3" alt="Imagem representando energia rural">
+            </div>
+        </div>
+
+        <form class="pt-5">
+            <label for="comentario">Deixe sua opinião:</label>
+            <textarea class="form-control mb-2" id="comentario" rows="3" placeholder="Compartilhe sua ideia..."></textarea>
+
+            <label for="avaliacao">Como você avalia o tema?</label>
+            <select class="form-select mb-2" id="avaliacao">
+                <option value="excelente">Excelente</option>
+                <option value="bom">Bom</option>
+                <option value="ruim">Ruim</option>
+            </select>
+
+            <input type="email" class="form-control mb-2" placeholder="Seu e-mail">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>Todos os direitos reservados - Agrinho 2025</p>
+    </div>
+</body>
+</html>
