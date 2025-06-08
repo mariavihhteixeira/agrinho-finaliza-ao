@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Calibri, Century Gothic, sans-serif;
+}
+
+/* Cabeçalho em verde escuro com amarelo */
+.cabecalho {
+    color: #ffeb3b; /* amarelo vivo */
+    background-color: #1b5e20; /* verde escuro */
+    text-align: center;
+    padding: 30px;
+}
+
+.cabecalho h3 {
+    color: #fff176; /* amarelo claro */
+}
+
+/* Alinhamento de texto */
+p .alinha {
+    text-align: right;
+}
+
+/* Imagens */
+.img-agro {
+    width: 300px;
+}
+
+.br-3 {
+    border-radius: 15px;
+}
+
+.img-card {
+    max-height: 250px;
+}
+
+.img-slide {
+    max-height: 400px;
+}
+
+/* Rodapé em verde médio */
+.footer {
+    background-color: #43a047; /* verde médio */
+    color: #fffde7; /* amarelo bem claro quase branco */
+    text-align: center;
+    padding: 5px;
+}
+
+/* Botões primários Bootstrap customizados */
+.btn-primary {
+    background-color: #fdd835; /* amarelo forte */
+    border-color: #fbc02d;
+    color: #1b5e20; /* verde escuro para contraste */
+}
+
+.btn-primary:hover {
+    background-color: #fbc02d;
+    border-color: #f9a825;
+    color: #1b5e20;
+}
