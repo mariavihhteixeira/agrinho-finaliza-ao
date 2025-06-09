@@ -1,3 +1,4 @@
+#agrinho
 agrinho celebrando conexão campo e cidade
 Este projeto é uma página web educativa que visa informar sobre a importância da conexão entre o campo e a cidade, destacando temas como acessibilidade à água, uso consciente de energia e processos de produção no meio rural. A proposta é reforçar o respeito e o entendimento entre as realidades urbana e rural, utilizando uma abordagem visual e acessível.
 
